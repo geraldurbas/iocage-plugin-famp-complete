@@ -10,5 +10,3 @@ service mysql-server start
 
 echo "Create php.ini"
 cp /usr/local/etc/php.ini-production /usr/local/etc/php.ini
-echo "add PHP Modules"
-pgk install php74-curl
