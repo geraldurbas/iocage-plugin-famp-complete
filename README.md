@@ -8,7 +8,7 @@ Iocage FAMP (FreeBSD [Apache](https://httpd.apache.org/), [MySQL](https://www.my
 In freenas shell run:
 
 * `fetch https://raw.githubusercontent.com/geraldurbas/iocage-plugin-index/master/famp-complete.json`
-* `iocage fetch -P famp.json --name famp dhcp=on`
+* `iocage fetch -P famp-complete.json --name famp dhcp=on`
 
 # Compability/Test matrix
 
